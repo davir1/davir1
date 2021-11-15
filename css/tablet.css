@@ -1,0 +1,59 @@
+/* Header changes */
+header{
+    margin-top: -2rem;
+}
+
+header a{
+    font-size: x-large;
+    padding-right: 2rem;
+}
+
+/* Sections Changes */
+main{
+    /* flex-flow: stretch;
+    align-items:flex-start; */
+    justify-content: right;
+}
+
+#about{
+    width: 78%;
+}
+
+#proyects{
+    width: 78%;
+    height: 60vh;
+    /* display: flex;
+    align-content:center; */
+}
+
+#container{
+    width: 78%;
+    height: 55vh;
+}
+
+#skills{
+    width: 78%;
+    height: 40vh;
+}
+
+#contact, #tools{
+    width: 100%;
+    height: 50%;
+}
+
+.sidebar{
+    margin: 0;
+    width: 22%;
+    position: sticky;
+    top: 4rem;
+    height: 95vh;
+}
+
+/* Changes in the footer */
+footer{    
+    padding-top: 1rem;
+    font-size: medium;
+    text-align: right;
+    padding-right: 3rem;
+}
+
