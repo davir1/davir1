@@ -3,16 +3,13 @@
 }
 /* Header changes */
 
-.preheader{
-    height: var(--preheader-height);
-    width: 99vw;
-    font-size: x-large;
+header{
+    text-align: center;
+    bottom: 3rem;
 }
-
 header a{
     padding-right: 2rem;
     font-size: x-large;
-
 }
 
 /* Sections Changes */
@@ -20,40 +17,34 @@ main{
     max-width: 1300px;
 }
 
-#home, #about{
-    width: 65%;
-}
-
 #about{ 
-    order: 3;
+    width: 60%;
+    /* order: 3; */
 }
 
 #proyects{
-    order: 2;
-    width: 20%; 
+    /* order: 2; */
+    width: 25%; 
     height: 95vh;
 }
 
-#container{
-    order:4;
-    width: 20%;
-    height: auto;
-    /* display: flex;
-    flex-wrap:wrap ; */
+#skills{
+    width: 50%;
+    height: 95vh;
 }
-#skills, #tools{
-    width: 100%;
-    height: 50%;
+#container{
+    width: 35%;
+    height: 95vh;
 }
 
-#section5{
-    order:7;
-    width: 50%;
+#tools{   
+    width: 100%;
+    height: 60%;
 }
 
 #contact{
-    order:8;
-    width: 35%;
+    width: 100%;
+    height: 40%;
 }
 
 .sidebar{
@@ -67,8 +58,12 @@ main{
 /* Changes in the footer */
 footer{
     font-size: large;
-    position:fixed;
+    position:sticky;
     bottom: 0;
     height: 3rem;
 	padding-top: 3px;
+    background-color: rgba(119, 119, 119, 1);
+    width: 99vw;
+    margin-left:0.5vw;
+
 }
