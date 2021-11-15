@@ -1,5 +1,5 @@
 :root{
-	--primary-color: rgba(142, 227, 230, 0.8);
+	  --primary-color: rgba(142, 227, 230, 0.8);
     --secundary-color:rgba(187, 186, 186, 0.5);
     --header-img: url();
     --background-img: url();
@@ -51,6 +51,7 @@ main{
     display: flex;
     flex-wrap: wrap;
     justify-content: right;
+
     margin-left: 1vw;
 }
 
