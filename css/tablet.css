@@ -1,3 +1,8 @@
+body{
+    /* display: flex; */
+    justify-content: center;
+}
+
 /* Header changes */
 header{
     margin-top: -2rem;
@@ -10,11 +15,8 @@ header a{
 
 /* Sections Changes */
 main{
-    /* flex-flow: stretch;
-    align-items:flex-start; */
-    justify-content: right;
+    justify-content:flex-end;
 }
-
 #about{
     width: 78%;
 }

@@ -15,6 +15,7 @@ header a{
 /* Sections Changes */
 main{
     max-width: 1300px;
+    margin: auto;
 }
 
 #about{ 
