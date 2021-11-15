@@ -1,5 +1,6 @@
 :root{
-	--primary-color: rgba(142, 227, 230, 0.856);
+	--primary-color: rgba(142, 227, 230, 0.8);
+    --secundary-color:rgba(245, 222, 179, 0.3);
     --header-img: url();
     --background-img: url();
     --preheader-height: 3rem;
@@ -65,7 +66,7 @@ main h2{
 
 /* Configuring sections */
 .section{
-    background-color: rgba(245, 222, 179, 0.3);
+    background-color: var(--secundary-color);
     border: 1px solid blueviolet;
     border-radius: 15px;
     width: 100%;
