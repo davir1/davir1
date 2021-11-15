@@ -1,0 +1,119 @@
+:root{
+	--primary-color: rgba(142, 227, 230, 0.856);
+    --header-img: url();
+    --background-img: url();
+    --preheader-height: 3rem;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+
+body
+{
+    background: #272626;
+    color:#333;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Stilyng the header */
+.preheader{
+    background: var(--primary-color);
+    height: var(--preheader-height);
+    width: 99vw;
+    margin: 0 auto;
+    font-size: medium;
+}
+
+header{
+    background: var(--primary-color);
+    padding: 1rem;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    vertical-align: sub;
+    position: sticky;
+    top: 0;
+    display: inline-block;
+    width: 99vw;
+    margin: 0 auto 0 0.5vw;
+    text-align: right;
+}
+
+/* this  remove the underline in the links and changes the color */
+header a{
+    text-decoration: none;
+    color: rgb(0, 255, 98);
+    padding-left: 0.5rem;
+}
+
+/* Main content */
+main{
+    border: 1px solid #ddd;
+    margin: auto;
+    width: 98vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#proyects img{
+    width: 90%;
+    margin: 0 auto;
+}
+main h2{
+    font-size: 2rem;
+    text-align: center;
+    color:violet;
+}
+
+/* Configuring sections */
+.section{
+    background-color: rgba(245, 222, 179, 0.3);
+    border: 1px solid blueviolet;
+    border-radius: 15px;
+    width: 100%;
+    height: 95vh;
+    overflow: scroll;
+}
+
+#skills, #tools, #contact, #section5{
+    height: 47.5vh;
+    width: 100%;
+}
+
+.sidebar{
+    width: 100vw;
+    height: 5vh;
+    position: sticky;
+    top: 95vh;
+    margin: -5vh  0 0 0 ;
+}
+
+/* Here goes the foot! */
+footer{
+    background: rgba(119, 119, 119, 0.1);
+    color: white;
+    text-align: center;
+    padding: .6rem;
+    position: relative;
+    bottom: 0;
+    width: 100vw;
+    min-height: 2rem;
+    display: inline-block;
+}
+
+
+/* Efects of hyperlinks */
+header a:hover{
+    text-shadow: 3px 3px 3px tan;
+}
+
+main a:hover{
+    color: darkturquoise;
+    text-decoration:initial;
+
+}

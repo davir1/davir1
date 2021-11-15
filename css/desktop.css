@@ -1,0 +1,74 @@
+:root{
+    --preheader-height:4rem;
+}
+/* Header changes */
+
+.preheader{
+    height: var(--preheader-height);
+    width: 99vw;
+    font-size: x-large;
+}
+
+header a{
+    padding-right: 2rem;
+    font-size: x-large;
+
+}
+
+/* Sections Changes */
+main{
+    max-width: 1300px;
+}
+
+#home, #about{
+    width: 65%;
+}
+
+#about{ 
+    order: 3;
+}
+
+#proyects{
+    order: 2;
+    width: 20%; 
+    height: 95vh;
+}
+
+#container{
+    order:4;
+    width: 20%;
+    height: auto;
+    /* display: flex;
+    flex-wrap:wrap ; */
+}
+#skills, #tools{
+    width: 100%;
+    height: 50%;
+}
+
+#section5{
+    order:7;
+    width: 50%;
+}
+
+#contact{
+    order:8;
+    width: 35%;
+}
+
+.sidebar{
+    margin: 0;
+    width: 15%;
+    position: sticky;
+    top: 4rem;
+    height: 95vh;
+}
+
+/* Changes in the footer */
+footer{
+    font-size: large;
+    position:fixed;
+    bottom: 0;
+    height: 3rem;
+	padding-top: 3px;
+}

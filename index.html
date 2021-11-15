@@ -7,23 +7,68 @@
         <meta name="description" content="This is David Echeverry Web Development Portfolio">
         <meta name="robots" content="index,follow">
         <title>Welcome to my Portafolio</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/tablet.css" media="screen and (min-width: 450px)">
+        <link rel="stylesheet" href="./css/desktop.css " media="screen and (min-width: 770px)">
 
     </head>
     <body>
+        <section class=preheader>
+            <h1>Welcome to my Portfolio</h1>
+        </section>
         <header>
-            Welcome to my Portfolio
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#proyects">Proyects</a>
+                <a href="#contact">Contact</a>
+            </nav>
         </header>
 
         <main>
-            <section id = "post">
-                <h1>This are all the things that I have done</h1>
-                <img src="https://i1.wp.com/brightestyoungthings.com/wp-content/uploads/2016/08/funny-gifs-love-olympics.gif?fit=400%2C224&quality=100&ssl=1" width="100%">
-            </section>         
+            <section class="sidebar section">
+                <nav>
+                    <h2>Sidebar</h2>
+                </nav>
+            </section>
+
+            <section id = "home" class="section">
+                <h2>Hi!</h2>
+            </section>    
+
+            <section id="about" class="section">
+                <h2>About</h2>
+            </section>  
+
+            <section id=container class="section">
+                <section id="skills" class="section">
+                    <h2>Skills</h1>
+                </section>  
+    
+                <section id="tools" class="section">
+                    <h2>Tools</h2>
+                </section>  
+            </section>
+            
+            <section id="proyects" class="section">
+                <nav>
+                    <h2>This are all the things that I have done</h2>
+                <img src="https://i1.wp.com/brightestyoungthings.com/wp-content/uploads/2016/08/funny-gifs-love-olympics.gif?fit=400%2C224&quality=100&ssl=1">
+                </nav>
+
+            </section>  
+            <section id="section5" class="section">
+                <h2>Sec5</h2>
+            </section>  
+            <section id="contact" class="section">
+                <h2>Contact</h2>
+
+            </section>  
         </main>
 
         <footer>
-            <p>Under construction by: Davir1 💛</p>
+            <h5>Created with love by <a href="https://davir1.github.io/" target="_blank"> Davir</a> </h5>
         </footer>
     </body>
 </html>
