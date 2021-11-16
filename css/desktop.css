@@ -20,20 +20,21 @@ main{
 
 #about{ 
     width: 60%;
-    /* order: 3; */
 }
 
 #proyects{
-    /* order: 2; */
-    width: 25%; 
+    order: 3;
+    width: 50%; 
     height: 95vh;
 }
 
 #skills{
-    width: 50%;
+    order:2;
+    width: 25%;
     height: 95vh;
 }
 #container{
+    order:4;
     width: 35%;
     height: 95vh;
 }
